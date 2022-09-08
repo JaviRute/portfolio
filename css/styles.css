@@ -8,6 +8,8 @@ body {
 .jrr {
     border-radius: 50%;
     padding-top: 50px;
+    width: 20%;
+    height: auto;
 }
 
 h1 {
