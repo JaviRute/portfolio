@@ -90,6 +90,14 @@ div {
     text-align: left;
 }
 
+.left {
+    text-align: left;
+}
+
+.right {
+    text-align: right;
+}
+
 .skill-img {
     width: 25%;
     float: left;
