@@ -11,6 +11,22 @@ body {
     display: grid;
 }
 
+@media (prefers-reduced-motion: no-preference) {
+    .jrr {
+      animation: pixelart-spin infinite 20s linear;
+    }
+  }
+
+  @keyframes pixelart-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+
 /* -------------------row 1 (navbar)------------------- */
 
 .column1 {
