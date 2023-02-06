@@ -315,6 +315,7 @@ hr {
 .img_square_left {
     
     float: left;
+    margin-left: 0;
 }
 
 .project p {
