@@ -32,13 +32,26 @@
 /*-------------------nav bar---------------------------*/
 
 .top-flex {
+    width: 100vw;
     background-color: none;
     display: flex;
-    justify-content: end;
+    justify-content: start;
     font-size: 1.6rem;
     margin: 0;
     text-shadow: 1px 1px 0 #000, 1px 1px 0 #000, 1px 1px 0 #000, 1px 1px 0 #000;
-    
+}
+
+@media (max-width: 580px) {
+  .top-flex {
+    flex-direction: row-reverse;
+  }
+  #nav-div {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding-left: 1rem;
+    width: 100%;
+    border-radius: 10px;
+  }
+
 }
 
 
